@@ -9,15 +9,13 @@ Steps:
 1. Identify different stages for a web applications such that for a single stage it can load Javascripts which do not have interdependency within that stage. The next stage may have dependency on the previous stage.
 
 2. Create two different js based on app.init.js and app.config.js:-
-
 a) app.config.js:
   i. It provides the Javascript configuration like path, version, name etc as different stages.
   ii. It provide the css configuration too
   iii. It tiggers the main application
-  
 b) app.init.js: It identifies the Javascript code that needs to be executed for each stage.
 
-3. Load bmloader.js first
+3. Load bmloader.js first.
 
 4. Register application( loadconfig, css, init ), with some name.
 
