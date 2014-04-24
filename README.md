@@ -4,6 +4,7 @@ bMloader
 Javascript Loader for JS, CSS. AMD or Non-AMD doesn't matter, it will take care of JS dependencies.
 
 Steps:
+
 1. Identify different stages for a web applications such that for a single stage it can load Javascripts which do not have interdependency within that stage. The next stage may have dependency on the previous stage.
 
 2. Create two different js based on app.init.js and app.config.js.
